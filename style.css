@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barlow+Condensed:ital@1&family=Barlow:ital,wght@1,600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Merriweather:ital@0;1&family=Titillium+Web:wght@700&family=Work+Sans:ital,wght@0,400;0,800;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding-right:300px;
+    background-color: #E5203D;
+    height: 40px;
+}
+
+.navbar{
+    display: flex;
+    padding-left: 300px;
+    padding-right: 200px;
+    height: 100px;
+    background-color: #FFFFFF;
+}
+.contenu1-navbar{
+    display: flex;;
+    justify-content:flex-start;
+    align-items: center;
+    flex-basis:20%;
+}
+
+.image-navbar{
+    width:60%;
+}
+
+
+.contenu2-navbar{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    font-weight: bold;
+    flex-basis:60%;
+    
+}
+
+.liens1-navbar{
+    text-decoration: none;
+    color:black;
+    font-weight:bolder;
+    
+}
+
+.liens1-navbar:hover{
+    
+    color:#E5203D;
+}
+.span-navbar{
+    color:#E5203D;
+    font-weight: bolder;
+}
+
+.contenu3-navbar{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    flex-basis:20%;
+    padding-right: 100px;
+}
+
+.liens2-navbar{
+
+    text-decoration: none;
+    color:white;
+    border: 2px solid #E5203D;
+    border-radius: 5px;
+    background-color: #E5203D;
+    padding: 12px;
+
+}
+
+.liens2-navbar:hover{
+   color: #E5203D; 
+   background-color:white;
+}
+
+
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECEBEB;
+    height: 650px;
+    padding-right: 200px ;
+    
+}
+
+.contenu1-container3{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    padding-left: 300px;
+    padding-right: 200px;
+    gap:20px;
+    flex-basis:50%;
+    
+    
+}
+
+.titre1-container3{
+    font-size:60px;
+    font-weight:;
+    color: #E5203D;
+    font-family: sans-serif;
+}
+
+.span-container3{
+    color:black ;
+}
+
+.list-container3{
+    display:flex;
+    font-size: 20px; 
+    font-weight:400px;
+    line-height: 1.5em;
+    
+
+}
+
+.contenu1-1{
+    display: flex;
+    gap:20px;
+    justify-content:flex-start;
+    align-items: center;
+
+}
+
+.liens1-container3{
+    text-decoration: none;
+    color: white;
+    border: 2px solid #E5203D ; 
+    border-radius: 5px;
+    background-color: #E5203D;
+    padding: 10px;
+}
+
+.liens1-container3:hover{
+    color:#E5203D ;
+    background-color:white;
+}
+
+    
+.liens2-container3{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black ;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.liens2-container3:hover{
+    color:white;
+    background-color:black;
+}
+
+
+
+
+.contenu2-container3{
+    display: flex;
+    align-self: flex-start;
+    justify-self:flex-start;
+    flex-basis: 50%; 
+    padding-right: 100px; 
+    
+}
+.image-contenu2{
+    display: flex;
+    justify-self:center;
+    width:100%;
+   
+}
+
+.container4{
+    display: flex;
+    justify-content: center; 
+    height:200px;
+    padding-top:50px;
+}
+
+.contenu1-container4{
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+}
+
+.titre1-container4{
+    font-family: "titilium web",sans-serif;
+    font-size:40px;
+    text-align:center;
+    font-weight: 700;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.paragraphe1-container4{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: #171717;
+}
+
+.container5{
+    display: flex;
+    height: 100px; 
+    justify-content: center;
+    align-items: center;
+    gap:10px;   
+}
+
+.span-container5{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+
+.container6{
+
+    display: flex;
+    height:800px;
+    justify-content: center;
+    gap:100px;
+    /* padding-left:0px;
+    padding-right:0px; */
+   
+}
+
+
+.contenu1-container6{
+    
+    width:35%;
+    height: 550px;
+    background-color:rgb(218, 212, 212);
+    border: 1px solid white;
+    border-radius:10px;
+    /* box-shadow: 2px 2px 2px red inset; */
+   
+}
+
+.contenu1-container6:hover{
+    
+    background-color:red;
+    color :white;
+}
+
+.image1-container6{
+    padding:20px; 
+}
+
+.image1{
+    height:300px;
+    width:100%;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.text1-container6{
+  text-align: center;
+}
+
+.liens1-container6{
+    text-decoration: none;
+    border: 2px solid red;
+    background-color: #E5203D;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    top:50px;
+}
+
+
+.liens1-container6:hover{
+    background-color:white;
+    color:red;
+}
+
+
+.contenu2-container6{
+    
+    width:35%;
+    background-color:rgb(218, 212, 212);
+    height: 550px;
+    border:1px solid white;
+    /* box-shadow: 2px 2px 2px red inset; */
+    border-radius:10px;
+}
+
+.contenu2-container6:hover{
+   background-color:red; 
+   color:white;
+}
+
+.image2-container6{
+    padding:20px;
+}
+
+.image2{
+    
+    height:300px;
+    width:100%;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.text2-container6{
+    text-align: center;
+  }
+
+  .liens2-container6{
+    text-decoration: none;
+    border: 2px solid red;
+    background-color: #E5203D;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    top:50px;
+
+}
+
+.liens2-container6:hover{
+   
+    background-color: white;
+    color: #E5203D;
+    border: 2px solid white;
+}
+
+
+.container7{
+    display: flex;
+    background-color:#E5203D;
+    height:500px;
+}
+
+.contenu1-container7{ 
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    padding-left: 200px;
+    flex-basis: 40%;
+}
+
+.image1-container7{
+    width: 80%;
+    border: 1px solid  white;
+    border-radius:170px;
+
+}
+
+.contenu2-container7{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    flex-basis: 60%;
+    padding-right:300px;
+  
+}
+
+.titre1-container7{
+      font-size: 40px;
+      color:white;
+      text-align:left;
+      font-family: "titilium web",sans-serif;
+}
+  
+  .container8{
+    position:relative;
+    top:100px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    height: 200px; 
+    padding: 50px;  
+  }  
+
+  .titre-container8{
+    font-size:50px;
+    text-align: center;
+  }
+
+  .container9{
+    display: flex;
+    gap:5px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+.contenu1-container9{
+   width: 25%;
+   background-color:white;
+   height: 600px;
+   border-radius: 20px;
+   padding:10px;
+}
+.image1-9{
+    width:100%;
+    height:250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+.contenu2-container9{
+    width:25%;  
+    background-color: white;
+    height: 600px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding:10px;
+}
+
+.image2-9{
+    width:100%;
+    height:250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+
+}
+.contenu3-container9{
+    width:25%;
+    background-color:white;
+    height: 600px;
+    border-radius: 20px;
+    padding:10px;
+}
+.image3-9{
+    width: 100%;
+    height:250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+
+}
+.contenu4-container9{
+    width: 25%; 
+    background-color:white;
+    height: 600px;
+    border-radius: 20px;
+    padding:10px;
+}
+.image4-9{
+    width: 100%; 
+    height:250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+
+}
+
+    
